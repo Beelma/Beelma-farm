@@ -25,24 +25,24 @@ if (carousel) {
       kicker: 'Mazabuka, Zambia',
       title: 'patience.',
       description: 'Healthy animals, honest food, and a farm that leaves the land better than we found it.',
-      image: 'https://images.unsplash.com/photo-1527153857715-3908f2bae5e8?auto=format&fit=crop&w=1400&q=85',
-      alt: 'A friendly brown cow looking toward the camera',
+      image: 'images/Image.jpg',
+      alt: 'Cattle gathered behind the feedlot rails',
       note: 'North paddock<br />07:42 / Morning round'
     },
     {
       kicker: 'Professional feedlot care',
       title: 'consistency.',
       description: 'Clean facilities, proper nutrition, and daily monitoring from pen to market.',
-      image: 'https://images.unsplash.com/photo-1484557985045-edf25e08da73?auto=format&fit=crop&w=1400&q=85',
-      alt: 'A white goat standing in a field',
+      image: 'images/Image (7).jpg',
+      alt: 'Cattle standing together in the Beelma Farms yard',
       note: 'East meadow<br />09:18 / Morning round'
     },
     {
       kicker: 'Proudly Zambian-owned',
       title: 'progress.',
       description: 'Quality, traceable cattle helping strengthen food security and local agriculture.',
-      image: 'https://images.unsplash.com/photo-1553284965-83fd3e82fa5a?auto=format&fit=crop&w=1400&q=85',
-      alt: 'A chestnut horse standing in a pasture',
+      image: 'images/Image (4).jpg',
+      alt: 'Cattle gathered beneath the open sky at the feedlot',
       note: 'South field<br />16:26 / Evening round'
     }
   ];
