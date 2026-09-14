@@ -27,7 +27,7 @@ if (carousel) {
       description: 'Healthy animals, honest food, and a farm that leaves the land better than we found it.',
       image: 'images/Image.jpg',
       alt: 'Cattle gathered behind the feedlot rails',
-      note: 'North paddock<br />07:42 / Morning round'
+      note: 'Mazabuka<br />07:42 / Morning round'
     },
     {
       kicker: 'Professional feedlot care',
@@ -35,7 +35,7 @@ if (carousel) {
       description: 'Clean facilities, proper nutrition, and daily monitoring from pen to market.',
       image: 'images/Image (7).jpg',
       alt: 'Cattle standing together in the Beelma Farms yard',
-      note: 'East meadow<br />09:18 / Morning round'
+      note: 'Mazabuka<br />09:18 / Morning round'
     },
     {
       kicker: 'Proudly Zambian-owned',
@@ -43,7 +43,7 @@ if (carousel) {
       description: 'Quality, traceable cattle helping strengthen food security and local agriculture.',
       image: 'images/Image (4).jpg',
       alt: 'Cattle gathered beneath the open sky at the feedlot',
-      note: 'South field<br />16:26 / Evening round'
+      note: 'Mazabuka<br />16:26 / Evening round'
     }
   ];
   const kicker = carousel.querySelector('[data-slide-kicker]');
