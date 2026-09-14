@@ -39,6 +39,7 @@ h1, h2 { font-family: var(--serif); font-weight: 500; letter-spacing: -0.065em; 
 h1 { font-size: clamp(70px, 8vw, 124px); margin-bottom: 28px; }
 h1 em, h2 em { color: var(--clay); font-style: italic; font-weight: 500; }
 .hero-intro { color: rgba(251, 250, 246, .82); font-size: 16px; max-width: 360px; }
+.hero-location { color: rgba(251, 250, 246, .68); font-size: 12px; line-height: 1.45; margin: -13px 0 0; max-width: 360px; }
 .hero-actions { align-items: center; display: flex; gap: 26px; margin-top: 38px; }
 .button { align-items: center; display: inline-flex; font-size: 12px; font-weight: 700; gap: 30px; justify-content: space-between; letter-spacing: .05em; padding: 15px 17px; text-transform: uppercase; transition: transform .2s ease, background .2s ease; }
 .button:hover { transform: translateY(-3px); }
@@ -78,7 +79,9 @@ h1 em, h2 em { color: var(--clay); font-style: italic; font-weight: 500; }
 .story-content { padding-top: 12px; }
 .story-content h2, .herd-heading h2, .visit h2 { font-size: clamp(52px, 5vw, 78px); margin-bottom: 58px; }
 .story-lower { align-items: flex-end; display: flex; gap: 38px; }
-.story-lower p { color: var(--muted); font-size: 14px; max-width: 285px; }
+.story-lower > div { max-width: 285px; }
+.story-lower > div p { color: var(--muted); font-size: 14px; margin-bottom: 16px; }
+.story-lower > div p:last-child { margin-bottom: 0; }
 .round-arrow { align-items: center; border: 1px solid var(--clay); border-radius: 50%; color: var(--clay); display: flex; font-size: 22px; height: 56px; justify-content: center; margin-bottom: 8px; transition: background .2s ease, color .2s ease; width: 56px; }
 .round-arrow:hover { background: var(--clay); color: var(--paper); }
 .story-image { height: 455px; margin-left: 15%; margin-top: 40px; overflow: hidden; }
