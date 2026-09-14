@@ -22,7 +22,7 @@ const carousel = document.querySelector('[data-carousel]');
 if (carousel) {
   const slides = [
     {
-      kicker: 'Family-run since 1987',
+      kicker: 'Mazabuka, Zambia',
       title: 'patience.',
       description: 'Healthy animals, honest food, and a farm that leaves the land better than we found it.',
       image: 'https://images.unsplash.com/photo-1527153857715-3908f2bae5e8?auto=format&fit=crop&w=1400&q=85',
@@ -30,17 +30,17 @@ if (carousel) {
       note: 'North paddock<br />07:42 / Morning round'
     },
     {
-      kicker: 'The curious ones',
-      title: 'character.',
-      description: 'Bright eyes, nimble feet, and plenty of personality in every corner of the farm.',
+      kicker: 'Professional feedlot care',
+      title: 'consistency.',
+      description: 'Clean facilities, proper nutrition, and daily monitoring from pen to market.',
       image: 'https://images.unsplash.com/photo-1484557985045-edf25e08da73?auto=format&fit=crop&w=1400&q=85',
       alt: 'A white goat standing in a field',
       note: 'East meadow<br />09:18 / Morning round'
     },
     {
-      kicker: 'Partners in every season',
-      title: 'connection.',
-      description: 'A slower way of working, built on trust between people, animals, and the land.',
+      kicker: 'Proudly Zambian-owned',
+      title: 'progress.',
+      description: 'Quality, traceable cattle helping strengthen food security and local agriculture.',
       image: 'https://images.unsplash.com/photo-1553284965-83fd3e82fa5a?auto=format&fit=crop&w=1400&q=85',
       alt: 'A chestnut horse standing in a pasture',
       note: 'South field<br />16:26 / Evening round'
