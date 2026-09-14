@@ -107,8 +107,20 @@ h1 em, h2 em { color: var(--clay); font-style: italic; font-weight: 500; }
 .visit-photo img { filter: saturate(.75); }
 .visit-copy { align-self: center; max-width: 480px; padding: 50px 9vw; }
 .visit-copy h2 { margin-bottom: 25px; }
-.visit-copy > p:not(.eyebrow) { color: rgba(251,250,246,.68); font-size: 14px; max-width: 285px; }
+.visit-copy > p:not(.eyebrow) { color: rgba(251,250,246,.74); font-size: 14px; max-width: 410px; }
 .button-light { background: var(--paper); color: var(--ink); margin-top: 22px; min-width: 152px; }
+.contact-details { border-top: 1px solid rgba(251, 250, 246, .2); margin-top: 26px; padding-top: 18px; }
+.contact-details p { color: rgba(251, 250, 246, .74); font-size: 13px; margin: 0 0 8px; }
+.contact-details strong, .contact-details a { color: var(--ink); }
+.contact-details a { text-decoration: underline; text-underline-offset: 3px; }
+.whatsapp-links { align-items: center; display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
+.contact-label { color: var(--clay); font-size: 10px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; width: 100%; }
+.whatsapp-links .button-light { font-size: 11px; margin-top: 0; min-width: 0; padding: 11px 13px; }
+.auto-reply { border-left: 2px solid var(--clay); color: rgba(251, 250, 246, .74); font-size: 12px; margin-top: 26px; padding-left: 14px; }
+.auto-reply strong { color: var(--ink); display: block; font-size: 11px; letter-spacing: .1em; text-transform: uppercase; }
+.auto-reply p { margin: 7px 0; }
+.auto-reply ol { margin: 0; padding-left: 18px; }
+.contact-note { color: var(--clay) !important; font-family: var(--serif); font-size: 21px !important; font-style: italic; margin-top: 22px; }
 
 .site-footer { align-items: start; display: grid; gap: 30px; grid-template-columns: 1fr 1fr 1fr auto; margin: 0 auto; max-width: 1400px; padding: 50px 5vw 38px; }
 .site-footer p, .site-footer small { color: var(--muted); font-size: 12px; line-height: 1.4; margin: 0; }
